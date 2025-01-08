@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Reproducing https://github.com/sidekiq/sidekiq/issues/6574
 
-Things you may want to cover:
+## Reproduction
 
-* Ruby version
 
-* System dependencies
+```
+bundle install
+bin/rails runner reproduce.rb
+```
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
