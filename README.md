@@ -7,6 +7,7 @@ Reproducing https://github.com/sidekiq/sidekiq/issues/6574
 
 Setup:
 ```
+bundle config --local enterprise.contribsys.com username:password
 bundle install
 ```
 
