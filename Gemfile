@@ -64,5 +64,5 @@ end
 
 source('https://enterprise.contribsys.com') do
   gem 'sidekiq-ent'
-  gem 'sidekiq-pro'
+  gem 'sidekiq-pro', '7.3.3'
 end

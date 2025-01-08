@@ -1,13 +1,13 @@
 GEM
   remote: https://enterprise.contribsys.com/
   specs:
-    sidekiq-ent (7.3.4)
+    sidekiq-ent (7.3.3)
       einhorn (~> 1.0)
       gserver
-      sidekiq (>= 7.3.7, < 8)
-      sidekiq-pro (>= 7.3.4, < 8)
-    sidekiq-pro (7.3.4)
-      sidekiq (>= 7.3.7, < 8)
+      sidekiq (>= 7.3.0, < 8)
+      sidekiq-pro (>= 7.3.0, < 8)
+    sidekiq-pro (7.3.3)
+      sidekiq (>= 7.3.0, < 8)
 
 GEM
   remote: https://rubygems.org/
@@ -395,7 +395,7 @@ DEPENDENCIES
   rubocop-rails-omakase
   selenium-webdriver
   sidekiq-ent!
-  sidekiq-pro!
+  sidekiq-pro (= 7.3.3)!
   solid_cable
   solid_cache
   solid_queue
