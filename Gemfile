@@ -61,3 +61,8 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+source('https://enterprise.contribsys.com') do
+  gem 'sidekiq-ent'
+  gem 'sidekiq-pro'
+end
